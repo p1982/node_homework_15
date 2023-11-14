@@ -1,0 +1,70 @@
+2023-10-11T09:31:52.361Z error: bad content-type header, unknown content-type: text/plain
+2023-10-11T09:44:13.345Z error: bad content-type header, unknown content-type: text/plain
+2023-10-13T07:40:33.788Z error: Unexpected token o in JSON at position 16
+2023-10-13T07:41:16.895Z error: Unexpected token o in JSON at position 16
+2023-10-13T07:41:53.501Z error: Unexpected token o in JSON at position 16
+2023-10-13T07:42:10.926Z error: Unexpected token o in JSON at position 16
+2023-10-13T07:44:28.516Z error: Unexpected token o in JSON at position 16
+2023-10-13T07:50:10.290Z error: Unexpected token o in JSON at position 16
+2023-10-13T07:57:48.967Z error: Unexpected token o in JSON at position 16
+2023-10-31T11:57:46.692Z error: WARN:{}
+2023-10-31T12:00:24.478Z error: WARN:{}
+2023-10-31T12:01:08.331Z error: WARN:{}
+2023-10-31T15:33:10.458Z error: WARN:{}
+2023-10-31T15:34:35.088Z error: WARN:{}
+2023-10-31T15:35:40.943Z error: WARN:{}
+2023-10-31T15:36:49.632Z error: WARN:{}
+2023-10-31T15:37:30.337Z error: WARN:{}
+2023-10-31T15:58:41.085Z error: ERROR:{}
+2023-10-31T15:58:41.092Z error: Connection "default" was not found.
+2023-10-31T15:59:49.372Z error: ERROR:{}
+2023-10-31T15:59:49.375Z error: Connection "default" was not found.
+2023-10-31T16:01:14.995Z error: ERROR:{}
+2023-10-31T16:01:14.998Z error: Connection "default" was not found.
+2023-10-31T16:15:28.500Z error: ERROR:{}
+2023-10-31T16:15:28.505Z error: Connection "default" was not found.
+2023-10-31T16:20:40.745Z error: ERROR:{"name":"Error","httpCode":400}
+2023-10-31T16:20:40.749Z error: : must NOT have additional properties
+2023-10-31T16:24:34.084Z error: ERROR:{"name":"Error","httpCode":400}
+2023-10-31T16:24:34.089Z error: : must have required property 'autor'
+2023-10-31T16:26:01.839Z error: Unexpected token { in JSON at position 111
+2023-10-31T16:26:44.363Z error: Unexpected token { in JSON at position 111
+2023-10-31T16:28:03.273Z error: ERROR:{"name":"Error","httpCode":400}
+2023-10-31T16:28:03.283Z error: : must have required property 'autor'
+2023-10-31T16:29:07.445Z error: WARN:{"query":"INSERT INTO \"news_post\"(\"title\", \"text\", \"genre\", \"isPrivate\", \"authorId\", \"authorEmail\") VALUES ($1, $2, $3, $4, $5, $6) RETURNING \"id\", \"isPrivate\"","parameters":["buy","world","Business",1,"{{author}}","{{author}}"],"driverError":{"length":210,"name":"error","severity":"ОШИБКА","code":"22P02","where":"неименованный портал, параметр $5 = '...'","file":"numutils.c","line":"235","routine":"pg_strtoint32"},"length":210,"severity":"ОШИБКА","code":"22P02","where":"неименованный портал, параметр $5 = '...'","file":"numutils.c","line":"235","routine":"pg_strtoint32"}
+2023-10-31T16:29:07.449Z error: ERROR:{"name":"Error","httpCode":500}
+2023-10-31T16:29:07.453Z error: неверный синтаксис для типа integer: "{{author}}"
+2023-10-31T16:30:05.993Z error: Unexpected token { in JSON at position 111
+2023-10-31T16:30:43.189Z error: WARN:{"query":"INSERT INTO \"news_post\"(\"title\", \"text\", \"genre\", \"isPrivate\", \"authorId\", \"authorEmail\") VALUES ($1, $2, $3, $4, $5, $6) RETURNING \"id\", \"isPrivate\"","parameters":["buy","world","Business",1,"h@io.aa","h@io.aa"],"driverError":{"length":207,"name":"error","severity":"ОШИБКА","code":"22P02","where":"неименованный портал, параметр $5 = '...'","file":"numutils.c","line":"235","routine":"pg_strtoint32"},"length":207,"severity":"ОШИБКА","code":"22P02","where":"неименованный портал, параметр $5 = '...'","file":"numutils.c","line":"235","routine":"pg_strtoint32"}
+2023-10-31T16:30:43.192Z error: ERROR:{"name":"Error","httpCode":500}
+2023-10-31T16:30:43.195Z error: неверный синтаксис для типа integer: "h@io.aa"
+2023-10-31T16:35:29.666Z error: WARN:{"query":"INSERT INTO \"news_post\"(\"title\", \"text\", \"genre\", \"isPrivate\", \"authorId\", \"authorEmail\") VALUES ($1, $2, $3, $4, $5, $6) RETURNING \"id\", \"isPrivate\"","parameters":["buy","world","Business",1,"h@io.aa","h@io.aa"],"driverError":{"length":207,"name":"error","severity":"ОШИБКА","code":"22P02","where":"неименованный портал, параметр $5 = '...'","file":"numutils.c","line":"235","routine":"pg_strtoint32"},"length":207,"severity":"ОШИБКА","code":"22P02","where":"неименованный портал, параметр $5 = '...'","file":"numutils.c","line":"235","routine":"pg_strtoint32"}
+2023-10-31T16:35:29.672Z error: ERROR:{"name":"Error","httpCode":500}
+2023-10-31T16:35:29.674Z error: неверный синтаксис для типа integer: "h@io.aa"
+2023-11-02T08:38:11.839Z error: WARN:{"query":"INSERT INTO \"news_post\"(\"title\", \"text\", \"genre\", \"isPrivate\", \"authorId\", \"authorEmail\") VALUES ($1, $2, $3, $4, $5, $6) RETURNING \"id\", \"isPrivate\"","parameters":["buy","world","Business",1,"h@io.aa","h@io.aa"],"driverError":{"length":207,"name":"error","severity":"ОШИБКА","code":"22P02","where":"неименованный портал, параметр $5 = '...'","file":"numutils.c","line":"235","routine":"pg_strtoint32"},"length":207,"severity":"ОШИБКА","code":"22P02","where":"неименованный портал, параметр $5 = '...'","file":"numutils.c","line":"235","routine":"pg_strtoint32"}
+2023-11-02T08:38:11.841Z error: ERROR:{"name":"Error","httpCode":500}
+2023-11-02T08:38:11.842Z error: неверный синтаксис для типа integer: "h@io.aa"
+2023-11-02T08:49:13.785Z error: ERROR:{"name":"Error","httpCode":500}
+2023-11-02T08:49:13.788Z error: неверный синтаксис для типа integer: "NaN"
+2023-11-02T08:50:07.857Z error: ERROR:{"name":"Error","httpCode":500}
+2023-11-02T08:50:07.858Z error: неверный синтаксис для типа integer: "NaN"
+2023-11-02T08:51:45.744Z error: ERROR:{"name":"Error","httpCode":500}
+2023-11-02T08:51:45.745Z error: неверный синтаксис для типа integer: "NaN"
+2023-11-02T08:52:31.512Z error: ERROR:{"name":"Error","httpCode":500}
+2023-11-02T08:52:31.513Z error: неверный синтаксис для типа integer: "NaN"
+2023-11-02T08:52:57.648Z error: ERROR:{"name":"Error","httpCode":500}
+2023-11-02T08:52:57.649Z error: неверный синтаксис для типа integer: "NaN"
+2023-11-02T08:59:17.199Z error: WARN:{"query":"INSERT INTO \"news_post\"(\"title\", \"text\", \"genre\", \"isPrivate\", \"authorId\", \"authorEmail\") VALUES ($1, $2, $3, $4, $5, $6) RETURNING \"id\", \"isPrivate\"","parameters":["buy","uuuuu","Business",1,"h@io.aa","h@io.aa"],"driverError":{"length":207,"name":"error","severity":"ОШИБКА","code":"22P02","where":"неименованный портал, параметр $5 = '...'","file":"numutils.c","line":"235","routine":"pg_strtoint32"},"length":207,"severity":"ОШИБКА","code":"22P02","where":"неименованный портал, параметр $5 = '...'","file":"numutils.c","line":"235","routine":"pg_strtoint32"}
+2023-11-02T08:59:17.200Z error: ERROR:{"name":"Error","httpCode":500}
+2023-11-02T08:59:17.201Z error: неверный синтаксис для типа integer: "h@io.aa"
+2023-11-02T09:05:36.377Z error: WARN:{"query":"INSERT INTO \"news_post\"(\"title\", \"text\", \"genre\", \"isPrivate\", \"authorIdId\", \"authorIdEmail\") VALUES ($1, $2, $3, $4, $5, $6) RETURNING \"id\", \"isPrivate\"","parameters":["buy","uuuuu","Business",1,2,2],"driverError":{"length":372,"name":"error","severity":"ОШИБКА","code":"23503","detail":"Ключ (authorIdId, authorIdEmail)=(2, 2) отсутствует в таблице \"user\".","schema":"public","table":"news_post","constraint":"FK_2348504a13968a0fbd2323d7199","file":"ri_triggers.c","line":"2607","routine":"ri_ReportViolation"},"length":372,"severity":"ОШИБКА","code":"23503","detail":"Ключ (authorIdId, authorIdEmail)=(2, 2) отсутствует в таблице \"user\".","schema":"public","table":"news_post","constraint":"FK_2348504a13968a0fbd2323d7199","file":"ri_triggers.c","line":"2607","routine":"ri_ReportViolation"}
+2023-11-02T09:05:36.387Z error: ERROR:{"name":"Error","httpCode":500}
+2023-11-02T09:05:36.388Z error: INSERT или UPDATE в таблице "news_post" нарушает ограничение внешнего ключа "FK_2348504a13968a0fbd2323d7199"
+2023-11-02T09:06:23.611Z error: WARN:{"query":"INSERT INTO \"news_post\"(\"title\", \"text\", \"genre\", \"isPrivate\", \"authorId\", \"authorEmail\") VALUES ($1, $2, $3, $4, $5, $6) RETURNING \"id\", \"isPrivate\"","parameters":["buy","uuuuu","Business",1,"h@io.aa","h@io.aa"],"driverError":{"length":207,"name":"error","severity":"ОШИБКА","code":"22P02","where":"неименованный портал, параметр $5 = '...'","file":"numutils.c","line":"235","routine":"pg_strtoint32"},"length":207,"severity":"ОШИБКА","code":"22P02","where":"неименованный портал, параметр $5 = '...'","file":"numutils.c","line":"235","routine":"pg_strtoint32"}
+2023-11-02T09:06:23.613Z error: ERROR:{"name":"Error","httpCode":500}
+2023-11-02T09:06:23.613Z error: неверный синтаксис для типа integer: "h@io.aa"
+2023-11-02T09:26:56.680Z error: ERROR:{"name":"Error","httpCode":500}
+2023-11-02T09:29:42.345Z error: ERROR:{"name":"Error","httpCode":500}
+2023-11-02T09:50:26.450Z error: WARN:{"query":"INSERT INTO \"news_post\"(\"title\", \"text\", \"genre\", \"isPrivate\", \"authorId\") VALUES ($1, $2, $3, $4, $5) RETURNING \"id\", \"isPrivate\"","parameters":["buy","uuuuu","Business",1,"h@io.aa"],"driverError":{"length":207,"name":"error","severity":"ОШИБКА","code":"22P02","where":"неименованный портал, параметр $5 = '...'","file":"numutils.c","line":"235","routine":"pg_strtoint32"},"length":207,"severity":"ОШИБКА","code":"22P02","where":"неименованный портал, параметр $5 = '...'","file":"numutils.c","line":"235","routine":"pg_strtoint32"}
+2023-11-02T09:50:26.456Z error: ERROR:{"name":"Error","httpCode":500}
+2023-11-02T09:50:26.460Z error: неверный синтаксис для типа integer: "h@io.aa"
