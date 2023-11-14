@@ -13,7 +13,7 @@
     "dev": "npx nodemon",
     "build": "rimraf ./build && npx tsc",
     "start": "npm run build && node build/index",
-    "lint": "eslint",
+    "eslint": "eslint",
     "format": "npx eslint ./src --fix",
     "db:seed": "ts-node ./src/dal/seed/index.ts",
     "db:migrate-up": "./node_modules/.bin/ts-node ./node_modules/.bin/typeorm migration:run -d ./src/dal/dataSource.ts",
