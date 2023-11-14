@@ -8,7 +8,7 @@ import {
   Index
 } from 'typeorm';
 import { UserEntity } from './user.ts';
-import { User } from '@sentry/node';
+
 @Entity()
 class NewsPost extends BaseEntity {
   @PrimaryGeneratedColumn()
@@ -33,7 +33,7 @@ class NewsPost extends BaseEntity {
   // @Column({ default: false })
   // deleted!: boolean;
 
-  @ManyToOne(type => UserEntity, (user: User) => user.newsPosts)
+  @ManyToOne(type => UserEntity, (user) => user.newPosts)
   @JoinTable()
   author!: UserEntity;
 
